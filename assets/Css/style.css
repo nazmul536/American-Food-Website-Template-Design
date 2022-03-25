@@ -1,0 +1,865 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/******************************/
+/********* HEADER CSS  *******/
+/****************************/ 
+.header-bg{
+    background: url('../Images//Header-background.png')no-repeat scroll center center / cover;
+}
+
+.express-delivery h2 {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #845f2a;
+}
+
+.header-padding{
+    padding-top: 50px;
+}
+.NavBar-menu {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 21px;
+    /* color: #3d2514; */
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #3d2514;
+    letter-spacing: 3px;
+}
+
+.Banner-padding{
+    padding-top: 35px;
+}
+
+.Banner-Top {
+    padding-top: 50px;
+}
+
+.banner-text p {
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #482d16;
+    border: 4px dashed #482d16;
+    padding: 6px 17px;
+    max-width: 75%;
+    font-weight: 300;
+}
+
+.banner-text h1{
+    font-size: 114px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-text h3{
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+
+.Dollar {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    bottom: 133px;
+}
+span.dollar-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 28px;
+    font-size: 35px;
+    border: 1px aolid black;
+}
+.Dollar{
+    position: relative;
+}
+
+
+/******************************/
+/*********Most Popular pasta Start  *******/
+/****************************/ 
+.section-padding{
+    padding: 50px 0px;
+}
+
+
+.pasta-1{
+    background: url('../Images/pasta-1.png')no-repeat scroll center center / cover;
+    padding: 15px 0px 30px 25px;
+    height: 338px;
+}
+.pasta-1 h4{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+   
+}
+.pasta-1 h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size:30px;
+}
+
+.pasta-2{
+    background: url('../Images/pasta-2.png')no-repeat scroll center center / cover;
+    padding: 15px 0px 30px 25px;
+}
+.pasta-2 h4{
+    color: white;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+
+.pasta-2 h2{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pasta-3{
+    background: url('../Images/pasta-3.png')no-repeat scroll center center / cover;
+    padding: 15px 0px 52px 25px;
+}
+
+.pasta-3 h4{
+    color: white;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+
+.pasta-3 h2{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/******************************/
+/***START CHOOSE AREA  *******/
+/****************************/   
+
+.rectangle-row{
+    position: relative;
+}
+
+.rectangular{
+    position: absolute;
+    top:0 ;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    background-color: #e4e2a6;
+}
+
+.section-padding{
+    padding: 50px 0;
+}
+
+.section-title{
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+.section-title h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+
+.section-title p{
+   color: #4f3929;
+   margin-bottom: 20px;
+   line-height: 28px;
+}
+
+.food {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.food img {
+    height: 270px;
+    margin: 0 auto;
+}
+
+.food h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 0px; 
+     
+}
+.food p{
+   font-family: 'Montserrat', sans-serif; 
+   padding-bottom: 2px; 
+}
+
+.Button-order{
+    padding: 10px 40px;
+    margin: auto;
+    margin-top: 30px;
+    display: 000000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #bf2121; 
+    text-transform: uppercase;
+    color: white;
+    border:0px;
+}
+
+.Tasty-Burger{
+    padding: 10px 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #ffbf45;
+    text-transform: uppercase;
+    border:0px;
+}
+/******************************/
+/********* Upcomming Events Table  *******/
+/****************************/ 
+.Discover{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.Discover h3{
+    font-size: 29px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d3d3d;
+}
+.Discover h1{
+    font-size: 42px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.Discover p{
+    font-size: 21px;
+}
+
+
+/******************************/
+/********* Book Your Table  *******/
+/****************************/ 
+.Book-Table{
+    position: relative;
+}
+
+.burger1{
+    position: absolute;
+    top: -73px;
+    width: 237px;
+}
+
+.plate {
+    position: absolute;
+    top: 159px;
+    right: 0;
+    height: 356px;
+    width: 190px;
+}
+
+.bottle {
+    position: absolute;
+    top: 168px;
+    left: 60px;
+    bottom: 0px;
+    right: 0px;
+    width: 154px;
+}
+
+.section-title h3{
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.findTable {
+    margin: 8px 0px;
+    padding: 13px 149px;
+    background-color: #bf2121;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #bf2121;
+    border-radius: 4;
+    border-radius: 6px;
+    color: white;
+}
+
+input.form-control[type="text"] {
+    padding: 13px;
+}
+
+
+
+
+
+/******************************/
+/********* Footer CSS  *******/
+/****************************/ 
+.footer-area{
+    background: url('../Images/footer-bg-img.png')no-repeat scroll center center / cover;
+}
+
+.footer-paragraph p {
+    margin: 25px 0px;
+    width: 387px;
+    text-align: left;
+}
+
+
+ .footer-newsletter {
+    padding: 50px 0;
+    background: #404040
+}
+
+ .footer-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600
+}
+
+ .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px
+}
+
+ .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 8px;
+    width: calc(100% - 140px)
+}
+
+ .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 3px;
+    background: #e96b56;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px
+}
+
+ .footer-newsletter form input[type="submit"]:hover {
+    background: #e6573f
+}
+
+ .footer-top {
+    background: url('../Images/footer-bg.png')no-repeat scroll center center / cover;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+    padding: 80px 0 30px 0;
+    margin: 30px;  
+}
+
+.footer-info {
+    margin-bottom: 15px;
+}
+
+  .footer-info h3 {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700
+}
+
+  .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #fff
+}
+.social-links{
+    text-align: right;
+}
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background:  #fff;
+    color: black;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 12px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+  .social-links a:hover {
+    background: #e96b56;
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px
+}
+
+ .footer-links {
+    margin-bottom: 30px
+}
+
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+  .footer-links ul i {
+    padding-right: 2px;
+    color: #ec7f6d;
+    font-size: 18px;
+    line-height: 1
+}
+
+ .footer-links ul li {
+    padding: 10px 0;
+ 
+}
+
+  .footer-links ul li:first-child {
+    padding-top: 0
+}
+
+.company-name{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+  .footer-links ul a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ .footer-links ul a:hover {
+    color: #e96b56
+}
+
+
+.footer-contact {
+    margin-bottom: 30px
+}
+
+  .footer-contact p {
+    line-height: 26px
+}
+
+ .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.location i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+ul.location li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+ .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff
+}
+
+span.fa-solid.fa-circle.me-2.my-2 {
+    color: #1089ff;
+}
+span.fa-solid.fa-circle {
+    color: #1089ff;
+}
+.owl-nav {
+    text-align: center;
+}
+.footer-pm {
+    padding-bottom: 90px;
+}
+
+
+@media all and ( max-width: 991px){
+/* Header Section Start */
+.navbar-light .navbar-toggler {
+    margin: 17px 0px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    max-width: 46%;
+    margin: auto;
+}
+
+.Banner-padding {
+    padding: 0px;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+    padding: 15px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-text h3 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-align: center;
+}
+.Banner-Top {
+    padding-top: 30px;
+}
+
+.food img {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/* Most Popular pasta */
+
+.popular-pasta {
+    padding-bottom: 21px;
+}
+.pasta-1 h4 {
+    text-align: left;
+}
+.pasta-1 h1 {
+    text-align: left;
+}
+.pasta-2 h4 {
+    text-align: left;
+}
+.pasta-2 h2 {
+text-align: left;
+}
+.pasta-3 h4 {
+ text-align: left;
+}
+.pasta-3 h2 {
+ text-align: left;
+}
+
+.findTable {
+    padding: 15px 70px;
+    margin: 7px;
+    font-size: 14px;
+}
+
+.Tasty-Burger {
+    padding: 6px 40px;
+    font-size: 23px;
+}
+
+.Discover h1 {
+    text-align: center;
+}
+.Discover h3 {
+    text-align: center;
+}
+.Discover p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Book your table */
+.burger1 {
+    top: -73px;
+    width: 193px;
+}
+
+
+/* Footer Section Start */
+.Express{
+    display: flex;
+    align-items: center;            
+}
+
+.footer-logo2 {
+   text-align: center;
+}
+    
+.company{
+   text-align: center;
+}
+
+.footer-top {
+    margin: 0px ;
+}
+
+.footer-paragraph p {
+    margin: 25px 0px;
+    width: 387px;
+    text-align: center;
+    font-size: 14px;
+}
+  
+.footer-paragraph p {
+    margin: 25px auto ;
+      
+}
+.company-name{
+    font-size: 14px;
+}
+
+.location li{
+    font-size: 14px;
+}
+.location i {
+    font-size: 20px;
+    margin-right: 4px;
+}
+.location-main-load{
+    display: flex;
+    justify-content: center;
+}
+.social-links a {
+    font-size: 17px;
+    padding: 6px 0;
+    width: 30px;
+    height: 30px; 
+}
+
+.footer-pm {
+    padding-bottom: 23px;
+}
+span.text-white.company-name {
+    font-size: 14px;
+}
+}
+
+@media all and ( max-width: 767px){
+.navbar-light .navbar-toggler {
+    margin: 17px 10px;
+}
+
+.Burger-Logo {
+
+    width: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.express-logo {
+    width: 32px;
+}
+
+.navbar-nav {
+    padding-left: 25px;
+}
+    
+.Express {
+    padding: 16px;
+}
+
+.express-delivery {
+    margin: auto;
+    padding: 8px 0px;
+}
+
+.express-delivery h2 {
+    font-size: 14px;
+}
+
+.banner-text p {
+    font-size: 14px;
+    max-width: 73%;
+    margin: auto;
+}
+
+.banner-text h1 {
+    font-size: 45px;
+}
+
+.banner-text h3 {
+    font-size: 40px;
+}
+
+.Banner-Top {
+    padding-bottom: 40px;
+}
+
+.Dollar {
+    height: 100px;
+    width: 100px;
+    bottom: 75px;
+}
+
+span.dollar-1 {
+  
+    padding: 17px;
+    font-size: 23px;
+    border: 1px aolid black;
+}
+
+/* Most Popular Pasta */
+.pasta-1 h4 {
+    font-size: 20px;
+    padding-top: 6px;
+}
+.pasta-1 h1 {
+    font-size: 25px;
+}
+.pasta-1 {
+    padding: 15px 0px 30px 25px;
+    height: 244px;
+}
+.pasta-2 h2 {
+    font-size: 25px;
+}
+.pasta-3 h2 {
+    font-size: 25px;
+}
+.pasta-3 h4 {
+    font-size: 20px;
+}
+.pasta-2 h4 {
+    font-size: 20px;
+  
+}
+
+
+/* Start Footer Section */
+
+.footer-logo {
+    height: 90px;
+    padding-bottom: 27px;
+}
+
+.footer-info p {
+    font-size: 15px;
+    padding: 0px 42px;
+}
+
+.social-links a {
+    font-size: 15px;
+}
+
+.section-padding {
+    padding: 30px 0px;
+}
+
+.footer-top {
+    margin: 0px;
+}
+
+.footer-top h4 {
+    font-size: 13px;
+    padding-bottom: 7px;
+}
+
+.footer-links ul li {
+    padding: 1px 0;
+}
+
+.footer-links ul a {
+    font-size: 15px;
+}
+
+.company-name {
+    font-size: 13px;
+}
+
+.social-links a {
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+}
+.footer-logo2 { 
+    justify-content: center;
+}
+}
+
+
+
+@media all and ( max-width: 576px){
+    .Tasty-Burger {
+        font-size: 14px;
+    }
+
+    .burger1 {
+        top: -37px;
+        width: 101px;
+    }
+
+    .burger1 {
+        display: none;
+    }
+
+    .bottle {
+      display: none;
+    }
+
+    .plate {
+        display: none;
+    }
+}
